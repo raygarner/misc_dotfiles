@@ -1,0 +1,32 @@
+"surf"
+	Mod1 + q
+
+"cd /home/$USER/media/pics/screenshots && scrot"
+	Print
+
+"st -e /bin/dash -V"
+	Mod1 + Shift + Return
+
+"xkill"
+	Mod1 + c
+
+"redshift -O 3000k"
+	Mod1 + r
+
+"redshift -x"
+	Mod1 + x
+
+"slock"
+	Mod1 + z
+
+"pape"
+    Mod1 + o
+
+"mons -m"
+    Mod1 + w
+
+"setxkbmap -option caps:escape"
+    Mod1 + e
+
+"killall xinit"
+    Mod1 + v
