@@ -9,7 +9,7 @@ numlockx &
 
 compton --no-fading-openclose &
 
-while xsetroot -name " BAT: `cat /sys/class/power_supply/BAT0/capacity`% | CPU: `top -b -n 1 | grep Cpu | awk '{print 100-$8}'`% | MF: `free -h --giga | grep Mem | awk '{print $7}'` | DF: `df -H --total | grep sda2 | awk '{print $4}'` | 1XMR: £`curl gbp.rate.sx/1xmr | cut -c1-3` | `date +%H:%M:%S` `date +%d/%m/%y`"
+while xsetroot -name " BAT: `cat /sys/class/power_supply/BAT0/capacity`% | CPU: `top -b -n 1 | grep Cpu | awk '{print 100-$8}'`% | MF: `free -h --giga | grep Mem | awk '{print $7}'` | DF: `df -H --total | grep sda2 | awk '{print $4}'` | `date +%H:%M:%S` `date +%d/%m/%y`"
 do
 	sleep 1
 done &
